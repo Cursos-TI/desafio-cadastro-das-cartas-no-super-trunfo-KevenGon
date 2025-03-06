@@ -1,25 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int População;
-    float Área;
-    float PIB;
-    int Número_de_pontos_turísticos;
+    char Estado[30] = " BAHIA ";
+    char Codigo_Da_Carta[30] = " 001 ";
+    char Nome_Da_Cidade[30] = " SALVADOR ";
+    int Populacao = 3000000;
+    float Area = 1000;
+    float PIB = 1000000;
+    int Numero_de_pontos_turisticos = 10;
 
-    printf("Digite a População: \n");
-    scanf("%d", &População);
-
-    printf("Digite a Área: \n");
-    scanf("%f", &Área);
-
-    printf("Digite o PIB: \n");
-    scanf("%f", &PIB);
-
-    printf("Quantidade de pontos turísticos: \n");
-    scanf("%d", &Número_de_pontos_turísticos);
-
-    printf("População: %d - Área: %f\n", População, Área);
-    printf("Pib: %f - Quantidade de pontos turisticos: %d\n", PIB, Número_de_pontos_turísticos);
+    printf("Estado: %s\n", Estado);
+    printf("Codigo Da Carta: %s\n", Codigo_Da_Carta);
+    printf("Nome Da Cidade: %s\n", Nome_Da_Cidade);
+    printf("Populacao: %d\n", Populacao);
+    printf("Area: %.2f\n", Area);
+    printf("PIB: %.2f\n", PIB);
+    printf("Numero de Pontos Turisticos: %d\n", Numero_de_pontos_turisticos);
 
     return 0;
 }
